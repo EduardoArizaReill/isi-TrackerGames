@@ -18,3 +18,21 @@ Para ejecutar el proyecto, asegúrate de contar con:
 🔑 Claves de API válidas para Riot Games API y Apex Legends API.
 🛠 Instalación
 1️⃣ Clona este repositorio
+
+
+🌍 APIs utilizadas
+🔹 League of Legends API
+📌 /lol/summoner/v4/summoners/by-name/{nombre} → Datos del jugador.
+📌 /lol/platform/v3/champion-rotations → Campeones gratuitos.
+📌 /lol/champion-mastery/v4/champion-masteries/by-puuid/{puuid}/by-champion/{id} → Maestría de campeón.
+
+🔹 Apex Legends API
+📌 /maprotation → Rotación de mapas en Apex Legends.
+📌 /bridge?platform={platform}&player={player} → Estadísticas del jugador en Apex.
+
+🏗 Roadmap (Mejoras futuras)
+🔜 Integración con Steam API para obtener datos de otros juegos.
+🔜 Soporte para Valorant API.
+🔜 Interfaz gráfica con JavaFX.
+🔜 Historial de partidas guardadas localmente.
+
