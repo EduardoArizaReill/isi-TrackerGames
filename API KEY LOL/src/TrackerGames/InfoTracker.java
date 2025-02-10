@@ -1,10 +1,5 @@
 package TrackerGames;
 
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-
-import java.io.IOException;
 import java.util.Scanner;
 
 public class InfoTracker {
@@ -107,16 +102,4 @@ public class InfoTracker {
 		}
 	}
 
-	// Método para realizar una solicitud HTTP y devolver la respuesta como String
-	public static String makeRequest(OkHttpClient client, String url) throws IOException {
-		Request request = new Request.Builder().url(url).get().build();
-		Response response = client.newCall(request).execute();
-
-		if (response.isSuccessful()) {
-			return response.body().string();
-		} else {
-			System.out.println("❌ Error en la solicitud: " + response.code() + " - " + response.message());
-			return null;
-		}
-	}
 }
