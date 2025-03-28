@@ -6,6 +6,7 @@ isi-TrackerGames es una plataforma web desarrollada con el objetivo de ofrecer u
 Este proyecto ha sido construido como una solución práctica para aprender y aplicar tecnologías modernas de desarrollo web, back-end y bases de datos relacionales.
 
 🚀 Funcionalidades principales
+
 🔍 Búsqueda de jugadores
 Consulta perfiles introduciendo el nombre de usuario y plataforma.
 
@@ -27,6 +28,7 @@ Módulo de autenticación de usuarios con sistema de login y registro.
 Gestión básica de credenciales en la tabla users.
 
 🧰 Tecnologías utilizadas
+
 🔧 Back-End
 Java 21 con Spring Boot
 
